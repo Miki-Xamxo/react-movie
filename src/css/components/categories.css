@@ -1,0 +1,25 @@
+.nav ul {
+  display: flex;
+}
+
+.nav li {
+  margin-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav li:hover {
+  color: rgba(29, 161, 242, 1);
+  transition: 0.2s;
+}
+
+.categories {
+  padding: 8px 12px;
+  margin: 10px;
+  border: 2px solid #2d303d;
+  font-size: 16px;
+  border-radius: 50px;
+  background: #252631;
+}

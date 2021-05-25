@@ -1,0 +1,19 @@
+.sort__category {
+  position: absolute;
+
+  top: 125px;
+  left: 4%;
+  right: 0;
+  width: 180px;
+  z-index: 999;
+  background: #fff;
+  color: #000;
+}
+
+.sort__category li {
+  padding: 5px;
+  cursor: pointer;
+}
+.sort__category li:hover {
+  color: rgba(29, 161, 242, 1);
+}
